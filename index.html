@@ -12,11 +12,26 @@
 </head>
 <body>
     <div class="btns">
-        <button class="btn red-btn">Open modal 1</button>
-        <button class="btn orange-btn">Open modal 2</button>
-        <button class="btn yellow-btn">Open modal 3</button>
-        <button class="btn green-btn">Open modal 4</button>
-        <button class="btn blue-btn">Open modal 5</button>
+        <button class="btn red-btn" onclick="openModal('modal1')">Open modal 1</button>
+        <button class="btn orange-btn" onclick="openModal('modal2')">Open modal 2</button>
+        <button class="btn yellow-btn" onclick="openModal('modal3')">Open modal 3</button>
+        <button class="btn green-btn" onclick="openModal('modal4')">Open modal 4</button>
+        <button class="btn blue-btn" onclick="openModal('modal5')">Open modal 5</button>
+    </div>
+    <div class="modal modal__none" id="modal1">
+        <div class="modal__box">
+            <div class="modal__content">
+                <div class="modal__header">
+                    <div class="modal__title">Modal title</div>
+                    <button class="close-icon close-modal">x</button>
+                </div>
+                <div class="modal__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, blanditiis?</div>
+                <div class="modal__footer">
+                    <button class="close-modal">Close</button>
+                    <button class="close-modal">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
