@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: aliceblue
     
 }
 .btns{
@@ -17,6 +17,12 @@ body{
     /* color: white; */
 
 }
+.confirm-btn{
+   background-color: blue; 
+}
+.cancel-btn{
+    background-color: rgba(0,0,0,0.8);
+}
 .red-btn{
     background-color: red;
 }
@@ -31,11 +37,4 @@ body{
 }
 .blue-btn{
     background-color: rgb(0, 157, 255);
-}
-.close-icon{
-    border: transparent;
-    padding: 0px;
-    background-color: transparent;
-    font-size: 25px;
-    line-height: 0px;
 }
